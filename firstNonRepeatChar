@@ -1,0 +1,9 @@
+def NonRepeatChar(s):
+    seen = {}
+    for i in s:
+        seen[i] = seen.get(i, 0)+1
+    print(seen)    
+    for i, j in enumerate(s):
+        if seen[j] == 1:
+            return i
+    return -1    
