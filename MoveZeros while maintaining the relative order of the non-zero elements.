@@ -11,5 +11,3 @@ def move_0s(n):
         n[i] = 0
         
     return n
-    
-move_0s([0,0,1,0,2,1,3,0])
